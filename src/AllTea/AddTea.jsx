@@ -40,16 +40,16 @@ const AddTea = () => {
                 <form onSubmit={handleAddTea} className="fieldset">
                     <h1 className='text-center text-4xl text-black font-serif'>Add New Coffee</h1>
                     <p className='text-gray-600 text-center'>It is a long established fact that a reader will be distraceted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.</p>
-                    <label className="label">Name</label>
+                    <label className="label text-black">Name</label>
                     <input type="text" name='name' className="input hover:input-info " placeholder="Name" />
-                    <label className="label">Price</label>
+                    <label className="label text-black">Price</label>
                     <input type="Price" name='price' className="input hover:input-info" placeholder="Price" />
-                    <label className="label">Quantity</label>
+                    <label className="label text-black">Quantity</label>
                     <input type="text" name='quantity' className="input hover:input-info" placeholder="Quantity" />
-                    <label className="label">Taste</label>
+                    <label className="label text-black">Taste</label>
                     <input type="text" name='taste' className="input hover:input-info" placeholder="Taste" />
-                    <label className="label">Tea URL</label>
-                    <input type="text" name='photo' className="input hover:input-info" placeholder="Taste" required />
+                    <label className="label text-black">Tea URL</label>
+                    <input type="text" name='photo' className="input hover:input-info" placeholder="Tea URL" required />
                     <button className="btn bg-[#D2B48C] text-[#331A15] font-sans border border-[#D2B48C] mt-4">Add New Tea</button>
                 </form>
             </div>
